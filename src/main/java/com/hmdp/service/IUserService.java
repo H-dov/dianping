@@ -36,4 +36,8 @@ public interface IUserService extends IService<User> {
      * @return 无
      */
     Result logout(String token);
+
+    Result sign();
+
+    Result signCount();
 }
